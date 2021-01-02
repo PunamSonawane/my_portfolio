@@ -24,5 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('homeapp.urls')),
     path('/aboutapp/',include('aboutapp.urls')),
+    path('/resumeapp/',include('resumeapp.urls')),
+    path('/serviceapp/',include('serviceapp.urls')),
+    path('/pfapp/',include('pfapp.urls')),
+    path('/contactapp/',include('contactapp.urls')),
 
 ]
